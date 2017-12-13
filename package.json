@@ -2,7 +2,7 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^2.7.0-dev.20171209"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "@alexxnica/logger": "^1.0.4",
+    "typescript": "^2.7.0-dev.20171212"
   }
 }

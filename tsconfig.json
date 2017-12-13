@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "build/dist",
+    "outDir": "./dist",
     "module": "commonjs",
     "target": "es5",
-    "declaration": false,
+    "declaration": true,
     "lib": [
       "es5",
       "es6",
